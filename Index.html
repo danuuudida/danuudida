@@ -1,0 +1,154 @@
+<html>
+    <title>W3.CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <body>
+    <center>
+    <div class="w3-container">
+     <img src="twice logo.png" width="100%" >
+    </center>
+    </div>
+    <div class="w3-bar w3-purple">
+    <button class="w3-bar-item w3-button" onclick="openTab('Home')">Home</button> 
+    <button class="w3-bar-item w3-button" onclick="openTab('Sana')">Sana</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('Jihyo')">Jihyo</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('Momo')">Momo</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('Naeyeon')">Naeyeon</button>
+    <button class="w3-bar-item w3-button w3-right" onclick="openTab('Profile')">Profile</button>
+    <div class="w3-dropdown-hover">
+        <button class="w3-button" >More</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-2">
+            <button class="w3-bar-item w3-button" onclick="openTab('Momo')">Momo</button>
+            <button class="w3-bar-item w3-button" onclick="openTab('Naeyeon')">Naeyeon</button>
+            <button class="w3-bar-item w3-button" onclick="openTab('Jihyo')">Jihyo</button>
+        </div>
+     </div>
+    </div>
+    <div id="Home" class="w3-container kota w3-animate-fading" style="display:block">
+        <h2>Welcome to the club</h2>
+        <h3>Twiceeeee</h3>
+    </div>
+    <div id="Sana" class="w3-container kota w3-animate-fading" style="display:none">
+        <h2>Sana</h2>
+        <img src="sana.jpg"> 
+        <p>
+            Nama asli: Minatozaki Sana
+            Nama panggung: Sana
+            Tanggal lahir: 29 Desember 1996
+            Tempat lahir: Osaka, Jepang
+            Kebangsaan: Jepang
+            Posisi: sub-vocalist
+            Zodiak: Capricorn
+            Golongan darah: B
+            Tinggi badan: 163 cm
+            Berat badan: 48 kg
+            Agensi: JYP Entertainment
+
+        </p>
+    </div>
+       <div id="Jihyo" class="w3-container kota w3-animate-bottom" style="display:none">
+        <h2>Jihyo</h2>
+        <img src="jihyo.jpg">
+        <p>
+        
+            Profil dan Biodata Jihyo TWICE, Leader Tangguh Bersuara EmasJihyo TWICE (instagram.com/twicetagram)
+            Nama lahir : Park Ji Soo (telah diubah secara resmi menjadi Park Ji Hyo)
+            Nama panggung : Jihyo
+            Posisi di grup : Leader dan main vocalist
+            Tempat dan tanggal lahir : Guri, Gyeonggi-do, 1 Februari 1997
+            Zodiak : Aquarius
+            Tinggi badan : 160 cm
+            Berat badan : 49 kg
+            Golongan darah : O
+            Tipe MBTI : ISFP-T
+        </p>
+       </div>
+       <div id="Momo" class="w3-container kota w3-animate-top" style="display:none">
+        <h2>Momo</h2>
+        <img src="Momo.jpg">
+        <p> Nama panggung: Momo (모모)
+
+            Nama asli: Hirai Momo (平井 もも)
+            
+            Posisi: main dancer, sub-vocalist, sub-rapper
+            
+            Tempat lahir: Kyōtanabe, Kyoto, Jepang
+            
+            Tanggal lahir: 9 November 1996
+            
+            Zodiak: Scorpio
+            
+            Tinggi badan: 167 cm
+            
+            Golongan darah: A
+            
+            Agensi: JYP Entertainment </p>
+       </div>
+       <div id="Naeyeon" class="w3-container kota w3-animate-zoom" style="display:none">
+        <h2>Nayeon</h2>
+        <img src="nayeon.jpg">
+        <p> Nama: Im Na Yeon (임나연)
+
+            Nama panggung: Nayeon
+            
+            Tempat dan tanggal lahir: Seoul, 22 September 1995
+            
+            Pendidikan: Konkuk University jurusan Film
+            
+            Golongan darah: A
+            
+            Tinggi badan: 163 cm
+            
+            Zodiak: Virgo
+            
+            Agensi: JYP Entertainment
+            
+            Grup: TWICE </p>
+       </div>
+       <div id="Profile" class="w3-container kota w3-animate-zoom" style="display:none">
+        <h2>Profile Pembuat</h2>
+        <img src="dida.jpeg">
+        <p> Nama: Dida Aburahmani Danuwijaya
+            <br>
+            Tempat dan tanggal lahir: Bandung, 5 Agustus 2002
+            <br>
+            Hobby: Mendengarkan lagu
+            <br>
+            Nim:10122011
+            <br>
+            Golongan darah: O
+            <br>
+            Tinggi badan: 163 cm
+            <br>
+            Zodiak: Leo
+            
+        </p>
+       </div>
+       <script>
+       function openTab(namakota) {
+        var i;
+        var x = document.getElementsByClassName("kota");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+        }
+        document.getElementById(namakota).style.display = "block"; 
+       }
+       </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
